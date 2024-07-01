@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 0vh 5vh;
+  text-align: center;
+  border-top: 2px solid var(--primary);
+  margin-top: 5vh;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.legal-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.legal-links a {
+  color: var(--black);
+  border-left: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
+  padding: 1vh 1vh;
+  transition: 0.3s;
+}
+
+.legal-links a:hover {
+  color: var(--primary);
+  transition: 0.3s;
+}
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.favorite-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.like {
+  position: absolute;
+  top: -2.7vh;
+  right: -2.7vh;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.hp-card.favorite {
+  border-color: var(--gold);
+  transition: 0.3s;
+}
+
+svg path {
+  fill: var(--primary);
+}
+
+svg.favorite path {
+  width: 50px;
+  fill: var(--red);
+  transition: 0.3s;
+}

@@ -1,0 +1,249 @@
+/* Samsung galaxy ultra s20 */
+
+@media (max-width: 412px) {
+  body {
+    padding: 0vw;
+  }
+  header {
+    display: none;
+  }
+  .sidenav {
+    display: block;
+  }
+  #svg {
+    display: block;
+  }
+  #SVGRepo_iconCarrier path {
+    display: block;
+  }
+  /* HOME */
+  #home img:nth-child(1) {
+    width: 0%;
+  }
+  #burger {
+    display: block;
+    animation: none !important;
+  }
+  #home {
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding: 2vh 3.5vh;
+  }
+  #home section {
+    margin: 0 0;
+    text-align: center;
+  }
+  #home section h1 {
+    font-size: 6vh;
+    margin: 0 0 3vh 0;
+    padding: 0 3vh;
+  }
+  #home section p {
+    font-size: 2vh;
+    text-align: justify;
+    padding: 0 1.5vh;
+  }
+  #home section #button {
+    padding: 6vh 0 0 4.5vh;
+    margin: 0 0 0 0;
+  }
+  #home img {
+    display: none;
+  }
+  #open-card {
+    padding: 0;
+    text-align: justify;
+    display: block;
+  }
+  #open-card #open {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  #open-card #open h2 {
+    font-size: 3vh;
+    padding: 0 3vh;
+    text-align: center;
+  }
+  #open-card #open button {
+    letter-spacing: 0;
+    margin: 0 0 5vh 0;
+  }
+  #booster-cards-container {
+    padding: 2vh 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+  #booster-cards-container .card-list {
+    margin: 0;
+  }
+  #booster-cards-container .card-list .hp-card {
+    height: 35vh !important;
+  }
+  #booster-cards-container .card-list li {
+    height: 20vh;
+  }
+  #booster-cards-container .hp-card a {
+    height: 25vh !important;
+  }
+  #booster-cards-container .hp-card img {
+    width: 100% !important;
+  }
+  /* DETAILS */
+  main .research {
+    margin: 0;
+    text-align: center;
+  }
+
+  #cards-research #burger {
+    width: 20%;
+  }
+  #cards-research h1 {
+    font-size: 5vh;
+    margin: 15px;
+  }
+  #maisons {
+    flex-wrap: wrap;
+  }
+  .maison-btn,
+  #reset {
+    padding: 1vh;
+    margin: 20px;
+  }
+  #card-list {
+    margin-bottom: 45px;
+  }
+  main ul li {
+    width: 60vw !important;
+    margin: 3vh 4vh !important;
+  }
+  main ul li a {
+    height: 25vh !important;
+  }
+
+  #card-view {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+  }
+  #card-view img {
+    width: 50%;
+  }
+  #card-view h2 {
+    letter-spacing: 0;
+    margin: 0 0 2vh 0;
+  }
+  #card-view div {
+    padding: 0 2vh;
+  }
+  #card-view p {
+    padding: 1vh 2vh;
+  }
+  /* PROFILE */
+  #profil {
+    margin-top: 0px;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  #profil #infos {
+    display: grid;
+    place-items: center;
+    border: none;
+  }
+  #profil #infos h2 {
+    text-align: center;
+    margin: 0;
+  }
+  #profil #infos #my-profile {
+    border-bottom: 2px solid var(--primary);
+    border-radius: 0px;
+    margin: 0 0 4vh 0;
+  }
+  #profil #profile {
+    display: block;
+    margin: 2vh 0 0 0;
+    text-align: center;
+  }
+  #profil #profile #stats {
+    /* border-top: 2px solid var(--primary); */
+    border: none;
+    text-align: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+  #stats {
+    display: grid;
+    place-items: center;
+  }
+  #profil #profile h2 {
+    font-size: 4vh;
+    border: none;
+  }
+  #profil #profile img {
+    display: none;
+  }
+  /* MODAL */
+  #open-modal-btn {
+    right: 5px;
+    bottom: 5px;
+    padding: 2vh 1vh;
+    font-size: 2vh;
+    z-index: 10;
+  }
+  #modal {
+    border-radius: 0px;
+  }
+  #modal .modal-content {
+    width: 90%;
+  }
+  #modal form {
+    padding: 3vh 0vh;
+  }
+  #modal form h2 {
+    margin-bottom: 2.5vh;
+    font-size: 2.5vh;
+  }
+  #modal form input {
+    padding: 1vh 6vh;
+  }
+  #close-modal-btn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* REGISTER/LOGIN */
+  #register {
+    padding: 0;
+  }
+  #register form {
+    border: none !important;
+    width: 100% !important;
+  }
+  #register form a {
+    margin: 2vh 0 2vh 0;
+  }
+  /* FOOTER */
+  footer {
+    margin-top: 5vh;
+  }
+  #home-footer {
+    margin-top: 140vh;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    padding-bottom: 5vh;
+  }
+  footer .legal-links {
+    border-bottom: 2px solid var(--primary) !important;
+    border-top: 2px solid var(--primary) !important;
+  }
+  footer .legal-links a {
+    border: none !important;
+    padding: 1vh 0;
+  }
+  footer .footer-content p {
+    padding: 2vh 0;
+  }
+}

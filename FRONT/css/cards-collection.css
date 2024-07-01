@@ -1,0 +1,85 @@
+#cards-research h1 {
+  color: var(--black-text);
+}
+
+#cards-research ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0vw 5vw;
+}
+
+#cards-research ul li {
+  position: relative;
+  border-radius: 10px;
+  width: 13vw;
+  min-height: 20vh;
+  margin: 5vh 7vh;
+  transition: 0.3s;
+}
+
+#cards-research ul li:hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.hp-card {
+  text-align: center;
+  padding: 2vh;
+  display: block;
+  border: 2px solid var(--primary);
+}
+
+.hp-card.hidden {
+  display: none;
+}
+
+.hp-card a {
+  text-align: left;
+  height: 25vh;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.hp-card a:hover img {
+  animation: wiggle 4s linear infinite;
+}
+
+.hp-card a h2 {
+  font-size: 1.9vh;
+  color: var(--primary) !important;
+}
+
+.hp-card p {
+  text-align: left;
+  font-weight: 400;
+  color: var(--black);
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}

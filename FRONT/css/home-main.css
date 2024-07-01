@@ -1,0 +1,72 @@
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 12vw;
+}
+
+#home section {
+  margin-right: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#home section #button {
+  padding: 10vh 0vh 0vh;
+}
+
+#home section #button a {
+  color: var(--dark-text);
+  padding: var(--normal);
+  margin-right: 3vw;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+#home section #button a:hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#home section #button a:nth-child(1) {
+  color: var(--white);
+  padding: var(--normal);
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+#home section #button a:nth-child(1):hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#home section h1 {
+  margin: 5vh 0vh;
+  font-size: 10vh;
+  color: var(--black);
+}
+
+#home section h1 span {
+  color: var(--primary);
+}
+
+#home section p {
+  font-size: 2.5vh;
+  padding-right: 10vw;
+}
+
+#home img {
+  width: 20vw;
+  animation: float 2.5s ease-in-out infinite;
+}

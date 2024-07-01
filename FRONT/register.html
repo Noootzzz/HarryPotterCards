@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" type="image/png" href="./img/icon/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <h2><span>H</span>arry <span>P</span>otter <span>C</span>ards</h2>
+      <button class="Darkmode">Darkmode</button>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="details.html">Collection</a>
+      </li>
+      <li>
+        <a href="profil.html">Profile</a>
+      </li>
+      <button class="darkmode">DarkMode</button>
+    </div>
+    <svg
+      onclick="openNav()"
+      viewBox="0 0 30 30"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style="height: 13vh"
+      id="svg"
+    >
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        <path
+          d="M4 18H10"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        ></path>
+        <path
+          d="M4 12L16 12"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        ></path>
+        <path
+          d="M4 6L20 6"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        ></path>
+      </g>
+    </svg>
+
+    <main id="register">
+      <div class="message-error">
+        <ul></ul>
+      </div>
+      <div class="message-success">
+        <ul>
+          <li>Account Created !</li>
+        </ul>
+      </div>
+      <form method="POST" id="reg-form">
+        <h2>Register</h2>
+        <div class="form">
+          <div class="reg-name">
+            <p>Pseudo</p>
+            <input type="text" id="reg-name" placeholder="Harry7832" />
+          </div>
+          <div class="reg-email">
+            <p>Email</p>
+            <input type="email" id="reg-email" placeholder="Harry@gmail.com" />
+          </div>
+          <div class="reg-psw">
+            <p>Password</p>
+            <input
+              type="password"
+              id="reg-psw"
+              placeholder=". . . . . . . . . . . ."
+            />
+          </div>
+          <div class="reg-psw">
+            <p>Confirm Your Password</p>
+            <input
+              type="password"
+              id="reg-psw-verif"
+              placeholder=". . . . . . . . . . . ."
+            />
+          </div>
+        </div>
+        <a href="login.html">You already have an account, Login here.</a>
+        <input type="submit" value="Register" />
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>Contact me : nathan.boisleux@gmail.com</p>
+        <div class="legal-links">
+          <a href="#">Legal Notice</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of use</a>
+        </div>
+        <p>© 2024 Boisleux Nathan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./js/sidenav.js"></script>
+    <script src="./js/register.js"></script>
+    <script src="./js/valid_form_register.js"></script>
+    <script src="./js/darkmode.js"></script>
+  </body>
+</html>

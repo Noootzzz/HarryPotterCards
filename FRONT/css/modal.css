@@ -1,0 +1,104 @@
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  opacity: 0;
+  z-index: 100;
+  transition: opacity 0.3s ease;
+}
+
+.modal-content {
+  background: var(--white);
+  padding: 2vh;
+  border-radius: 5px;
+  text-align: right;
+}
+
+#open-modal-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: var(--white);
+  padding: 2.5vh 4vh;
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+#open-modal-btn:hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#close-modal-btn {
+  padding: 1.5vh 3vh;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#modal form {
+  padding: 10vh;
+  text-align: left;
+}
+#modal form p {
+  margin-bottom: 10px;
+}
+#modal form h2 {
+  margin-bottom: 6vh;
+  font-size: 3vh;
+}
+
+#modal form input {
+  border: 2px solid var(--black);
+  margin-bottom: 20px;
+  padding: 2vh 7vh;
+  border-radius: 5px;
+  color: var(--primary);
+  transition: 0.3s;
+}
+
+#modal form input:focus {
+  border: 2px solid var(--primary);
+  outline: none;
+  transition: 0.3s;
+}
+
+#modal span {
+  color: var(--primary);
+}
+
+#modal form input:focus::placeholder {
+  opacity: 0;
+  transition: 0.3s;
+}
+#modal form input[type="submit"] {
+  color: var(--white);
+  padding: 2vh 3.5vh;
+  background-color: var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+#modal form input[type="submit"]:hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}

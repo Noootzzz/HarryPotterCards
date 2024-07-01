@@ -1,0 +1,108 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 5vh;
+  background-color: var(--white);
+  /* border-bottom: 2px solid var(--light-black); */
+  border-bottom: 2px solid var(--primary);
+}
+
+header h2 {
+  font-size: 2rem;
+  padding: 0vw 2vw;
+  color: var(--black-text);
+}
+
+header h2 span {
+  color: var(--primary);
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav li {
+  padding: 2vw 2vw;
+}
+
+header nav li a {
+  color: var(--black);
+  padding: var(--normal);
+  background-color: var(--white);
+  border-radius: 5px;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+header nav li a:hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header button,
+.sidenav button {
+  color: var(--white);
+  padding: var(--normal);
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: var(--border-button-color);
+  transition: 0.3s;
+}
+
+header button:hover,
+.sidenav button:hover {
+  color: var(--white);
+  border: var(--border-button-white);
+  background-color: var(--primary-light);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--black);
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 60px;
+  display: none;
+}
+
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--white);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#burger {
+  width: 20%;
+  display: none;
+}
+
+#svg {
+  display: none;
+}
+#SVGRepo_iconCarrier path {
+  stroke: var(--black);
+  display: none;
+}

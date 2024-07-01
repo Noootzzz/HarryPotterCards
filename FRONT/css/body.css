@@ -1,0 +1,7 @@
+body {
+  min-height: 100vh;
+  width: 99vw;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,25 @@
+#cards-research #searchbar {
+  background-color: var(--background);
+  padding: 1vh 2.5vw;
+  border-radius: 5px;
+  color: var(--primary);
+  border: 1px solid var(--black);
+  outline: none;
+  transition: 0.3s;
+}
+
+#cards-research #searchbar:focus {
+  border: 1px solid var(--primary);
+  transition: 0.3s;
+}
+
+#cards-research #searchbar::placeholder {
+  color: var(--primary);
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#cards-research #searchbar:focus::placeholder {
+  opacity: 0;
+  transition: 0.3s;
+}
